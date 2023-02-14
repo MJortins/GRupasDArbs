@@ -8,3 +8,4 @@ linoleum_area = roll_width * (room_width + 0.1) * (room_length + 0.1)
 total_cost = linoleum_area * linoleum_price
 
 
+print("Pilna cena linolejam sajai izstabai ir {:.2f} EUR.".format(total_cost))
